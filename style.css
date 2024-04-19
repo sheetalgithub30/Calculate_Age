@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/031/734/599/large_2x/abstract-scene-with-clocks-and-planets-in-space-3d-rendering-colorful-abstract-wallpaper-texture-background-universe-and-time-travel-between-stars-and-planets-ai-generated-free-photo.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 19rem;
+    height: 4rem;
+    font-size: 2rem;
+}
+
+.output{
+    display: flex;
+}
+
+.display{
+    background-color: black;
+    color:white;
+    padding: 1rem;
+    margin: 1rem;
+    font-size: 1/5rem;
+    border: 1px solid ;
+    box-shadow: 6px 6px 6px  black;
+}
+
+
+button{
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    border: 2px solid;
+    color: white;
+    background-color: black;
+    box-shadow: 6px 6px 6px  black;
+}
+
+
+.input{
+    background-color: black;
+    padding: 4px;
+}
+
+.input :hover{
+    transform: scale(1.2);
+}
+
+.button :hover{
+    transform: scale(1.2);
+}
+
+span{
+    font-size: 2rem;
+}
